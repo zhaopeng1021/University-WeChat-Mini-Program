@@ -1,0 +1,18 @@
+{
+  "name": "mian",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "node_modules/@vant/weapp": {
+      "version": "1.11.4",
+      "resolved": "https://registry.npmmirror.com/@vant/weapp/-/weapp-1.11.4.tgz",
+      "integrity": "sha512-egOsWO4hVMP1SQSqQ46jy8UD3WysvlnUecRzPM21Y3ovkOFZ6wlaO7oHQmTXRpwr+V41Qri1qEbtNjhVxFqdyw=="
+    },
+    "node_modules/apifm-wxapi": {
+      "version": "23.11.3",
+      "resolved": "https://registry.npmmirror.com/apifm-wxapi/-/apifm-wxapi-23.11.3.tgz",
+      "integrity": "sha512-3Aj1wpAYBR2ooS9oKnz6TewWZYgvzhkZliJCCyPkCSHOS+gg43f3f7e3bgi/O+PYsd8Hko/70+64JSPUMi1TUw=="
+    }
+  }
+}

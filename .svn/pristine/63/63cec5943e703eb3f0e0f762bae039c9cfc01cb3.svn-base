@@ -1,0 +1,9 @@
+<!--pages/register/index.wxml-->
+<van-image round custom-class="logo" width="100px" height="100px" src="../../assest/素材/images/wx.png"></van-image>
+<view class="title">微信授权页面</view>
+<view class="content">授权并同意使用微信账号注册账户</view>
+<view class="button-box">
+<van-button type="primary" block bind:tap="onRegister">微信授权，注册账户</van-button>
+</view>
+
+<van-notify id="van-notify" />

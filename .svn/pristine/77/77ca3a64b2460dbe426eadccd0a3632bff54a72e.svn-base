@@ -1,0 +1,25 @@
+<view class="swiper-container">
+<swiper class="swiper_box" autoplay indicator-dots indicator-color="rgba(255,255,255,0.3)" indicator-active-color="#ffffff" bindchange="swiperChange">
+  <swiper-item wx:for="{{bannerList}}">
+    <image src="{{item.picUrl}}" mode=""/>
+  </swiper-item>
+</swiper>
+</view>
+<block wx:for="{{shopSubList}}">
+  <van-cell-group title="{{item.name}}">
+
+  <van-cell value-class="my-value"  title="{{item.address}}" value="地图" is-link>
+  <van-icon></van-icon>
+  </van-cell>
+
+  <van-cell>
+  <van-icon></van-icon>
+  </van-cell>
+
+  <van-cell>
+  <van-icon></van-icon>
+  </van-cell>
+  
+  
+  </van-cell-group>
+</block>

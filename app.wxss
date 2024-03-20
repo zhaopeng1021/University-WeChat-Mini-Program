@@ -1,0 +1,11 @@
+page,
+text,
+view,
+navigator,
+swiper,
+swiper-item,
+image{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}

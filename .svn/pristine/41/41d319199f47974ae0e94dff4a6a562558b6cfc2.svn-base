@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/index",
+    "pages/cart/index",
+    "pages/menu/index"
+  ],
+  "entryPagePath": "pages/register/index",
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#f6f0e3",
+    "navigationBarBackgroundColor": "#f6f0e3",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 50,
+    "navigationStyle": "default"
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "resolveAlias": {
+    "~/*": "/*"
+  },
+  "tabBar": {
+    "selectedColor": "#1afa29",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assest/素材/images/nav/home-off.png",
+        "selectedIconPath": "/assest/素材/images/nav/home-on.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "/assest/素材/images/nav/my-off.png",
+        "selectedIconPath": "/assest/素材/images/nav/my-on.png"
+      },
+      {
+        "pagePath": "pages/menu/index",
+        "text": "菜单",
+        "iconPath": "/assest/素材/images/nav/ic_catefory_normal.png",
+        "selectedIconPath": "/assest/素材/images/nav/ic_catefory_pressed.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "/assest/素材/images/nav/cart-off.png",
+        "selectedIconPath": "/assest/素材/images/nav/cart-on.png"
+      }
+    ]
+  }
+}

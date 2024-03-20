@@ -1,0 +1,25 @@
+const {
+  WXAPI
+} = require("~/wxapi.js");
+
+
+Page({
+  data: {
+    bannerList: [],
+    shopSubList: [],
+    swiperCurrent:  0,
+    shopSubList :[]//门店列表
+  },
+  onShow() {
+    WXAPI.banners().then(res => {
+      this.setData({
+        bannerList: res.data
+      })
+    });
+    WXAPI.fenchShops().then(res => {
+      this.setData({
+        shopSubList: res.data
+      })
+    })
+  }
+})
