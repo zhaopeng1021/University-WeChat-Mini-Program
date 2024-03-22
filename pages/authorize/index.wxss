@@ -1,0 +1,21 @@
+/* pages/authorize/index.wxss */page {
+  padding: 20px 20px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.title{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.content{
+  color: grey;
+  margin-bottom: 25px;
+}

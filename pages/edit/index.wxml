@@ -1,0 +1,18 @@
+<!--pages/edit/index.wxml-->
+<van-cell-group>
+  <van-cell title="头像" center>
+    <view class="avatar">
+      <van-image src="{{avatar}}" round width="40" height="40" />
+      <van-icon name="arrow" color="#ccc" />
+      <button open-type="chooseAvatar" bindchooseavatar="chooseavatar"></button>
+    </view>
+  </van-cell>
+  <van-cell title="昵称" border="{{false}}">
+    <input type="nickname" value="{{nickName}}" placeholder="请输入昵称" bind:change="nickInput" />
+  </van-cell>
+</van-cell-group>
+
+<view class="button-box">
+  <van-button type="default" bind:click="onCancel">取消</van-button>
+  <van-button type="primary" bind:click="onSave">保存</van-button>
+</view>

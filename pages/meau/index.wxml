@@ -1,0 +1,25 @@
+<scroll-view scroll-y class="left">
+  <block wx:for="{{categories}}">
+    <view class="category-item {{navActive==index?'category-item-active':''}}" data-index="{{index}}" data-id="s{{item.id}}" bind:tap="onCategoryClick">
+      <text>{{item.name}}</text>
+    </view>
+  </block>
+</scroll-view>
+
+<scroll-view scroll-y class="right" scroll-into-view="{{contentActive}}" bindscroll="onScroll">
+  <view class="goods-container" wx:for="{{goodsWrap}}" wx:key="id">
+    <view class="goodsWraop-category" id="{{'s'+item.id}}">
+      <text>{{item.name}}</text>
+    </view>
+    <block wx:for="{{item.goods}}" wx:for-item="goods" wx:key="id">
+      <view class="goods-item">
+        <image class="goods-pic" src="{{goods.pic}}" mode="aspectFill" lazy-load="true" />
+        <view class="goods-info">
+          <text class="goodsName">{{goods.name}}</text>
+          <text class="goodsPrice">￥{{goods.minPrice}}</text>
+        </view>
+      </view>
+    </block>
+    <view style="height: 200px;"></view>
+  </view>
+</scroll-view>

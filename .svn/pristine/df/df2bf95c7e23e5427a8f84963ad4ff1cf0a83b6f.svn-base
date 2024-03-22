@@ -1,0 +1,45 @@
+/**index.wxss**/
+.wiper-container{
+  width: 750rpx;
+  position: relative;
+}
+
+.swiper_box{
+  width: 750rpx;
+  height: 375rpx;
+}
+
+swiper-item image{
+  width: 750rpx;
+  height: 375rpx;
+}
+
+.my-value{
+  flex: none !important;
+  width: 30px !important;
+}
+
+.my-icon{
+  margin-right: 5px;
+}
+.recommend-title{
+  font-size: 50rpx;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.img-box{
+  width: 350rpx;
+  height: 350rpx;
+}
+.image{
+  width: 350rpx;
+  height: 350rpx;
+}
+.goods-title{
+  font-size: 40rpx;
+}
+.goods-price{
+  font-size: 35rpx;
+  color: red;
+}

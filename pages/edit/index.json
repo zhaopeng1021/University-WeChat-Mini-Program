@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "用户修改个人信息",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-image": "@vant/weapp/image/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index"
+  }
+}

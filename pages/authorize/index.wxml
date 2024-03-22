@@ -1,0 +1,10 @@
+<view class="main">
+  <van-image round custom-class="logo" width="100px" height="100px" src="/assets/素材/images/wx.png" />
+<view class="title">微信授权页面</view>
+<view class="content">授权并同意使用微信账号注册账户</view>
+</view>
+<view class="button-box"> 
+  <van-button type="primary" block open-type="getUserInfo" bind:getuserinfo="bindGetUserInfo">微信授权，注册账户</van-button>
+</view>
+
+<van-notify id="van-notify" />

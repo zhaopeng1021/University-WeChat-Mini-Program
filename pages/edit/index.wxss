@@ -1,0 +1,25 @@
+/* pages/edit/index.wxss */
+/* pages/edit/index.wxss */
+.buton-box{
+  text-align: center;
+}
+.buton-box>van-button{
+  padding:0 15px;
+}
+.avatar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.avatar>button{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+}
+.avatar>button::after{
+  border:none ;
+}
